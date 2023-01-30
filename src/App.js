@@ -1,10 +1,12 @@
-import './App.css';
+import "./App.scss";
 
-import Contact from './components/contact';
+import Navbar from "./components/navbar/navbar";
 
 function App() {
   return (
-    <Contact />
+    <div>
+      <Navbar />
+    </div>
   );
 }
 
