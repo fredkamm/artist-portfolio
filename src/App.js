@@ -3,14 +3,14 @@ import Home from "./components/home";
 import About from "./components/about/about";
 import Gallery from "./components/gallery/gallery";
 import Contact from "./components/contact/contact";
-import Layout from "./components/layout/layout";
+import Navbar from "./components/navbar/navbar";
 import "./App.scss";
 
 function App() {
   return (
     <>
       <Router>
-        <Routes path="/" element={<Layout />}>
+        <Routes path="/" element={<Navbar />}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/gallery" element={<Gallery />} />
